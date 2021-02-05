@@ -1,0 +1,51 @@
+header{
+  display: flex;
+  background-color: whitesmoke;
+  height: 60px;
+  padding: 0 60px;
+}
+
+.heading{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-size: 30px;
+}
+
+.nav-lists{
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar{
+  width: 50%;
+}
+
+.background-red{
+  background-color:#FF6666;
+  color: white;
+}
+
+.show-lists{
+  width: 200px;
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  background-color: #f0f0f0;
+}
+
+.pull-down-list {
+  border: 1px solid #555555;
+}
+
+.hidden {
+  display: none;
+}
